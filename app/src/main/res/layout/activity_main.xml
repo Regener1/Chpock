@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_gray"
+    tools:context="com.example.regener.chpock.MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="386dp"
+        android:layout_height="529dp"
+        android:src="@drawable/roundrect_main"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="129dp"
+        android:id="@+id/activityMain_ImageView_RoundRect"/>
+
+
+    <ImageView
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:src="@mipmap/button_beer_cup"
+        android:id="@+id/activityMain_ImageView_BeerCup"
+        android:layout_alignTop="@+id/activityMain_ImageView_RoundRect"
+        android:layout_alignRight="@+id/activityMain_ImageView_RoundRect"
+        android:layout_alignEnd="@+id/activityMain_ImageView_RoundRect"
+        android:layout_marginRight="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="55dp"/>
+
+    <ImageView
+        android:layout_height="66dp"
+        android:src="@mipmap/bottom_paper"
+        android:id="@+id/activityMain_ImageView_BottomPaper"
+
+        android:layout_marginBottom="42dp"
+        android:layout_width="387dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>
